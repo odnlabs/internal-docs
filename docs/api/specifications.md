@@ -11,3 +11,8 @@
 Other technologies include using JSON as the data format, JWT for authentication, and WebSocket for live connections.
 
 ## Endpoints
+
+| Page             | Path          | Method       | Brief Description                                          |
+| ---------------- | ------------- | ------------ |----------------------------------------------------------- |
+|   notify list    |   `/notify`   |    `POST`    | Add user to notify list and create Discord Notifiction     |
+|   notify list    |   `/notify`   |    `GET`     | Get all emails on the notify list                          |
