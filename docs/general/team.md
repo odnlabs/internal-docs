@@ -13,7 +13,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/74949101?v=4',
     name: 'Slekup',
-    title: 'Founder',
+    title: 'Founder & Lead Developer',
     links: [
       { icon: 'github', link: 'https://github.com/slekup' },
     ]
@@ -41,8 +41,7 @@ const members = [
       Our Team
     </template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      If you're interested in officially joining the team, DM Slekup on Discord at <b>@slekup</b>.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
