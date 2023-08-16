@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: "Introduction", link: "/docs/general/introduction" },
           { text: "Team", link: "/docs/general/team" },
+          { text: "Site", link: "/docs/general/site" },
         ],
       },
       {
@@ -32,6 +33,7 @@ export default defineConfig({
           {
             text: "Endpoints",
             link: "/docs/api/endpoints/user",
+            collapsed: true,
             items: [
               {
                 text: "User",
@@ -46,6 +48,7 @@ export default defineConfig({
           {
             text: "Structures",
             link: "/docs/api/structures/user",
+            collapsed: true,
             items: [
               {
                 text: "User",
@@ -66,6 +69,7 @@ export default defineConfig({
           {
             text: "Routes",
             link: "/docs/web/routes/user",
+            collapsed: true,
             items: [
               {
                 text: "User",
@@ -74,6 +78,23 @@ export default defineConfig({
               {
                 text: "Guild",
                 link: "/docs/web/routes/guild",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Packages",
+        items: [
+          { text: "API Client", link: "/docs/packages/api-client" },
+          {
+            text: "ODN UI",
+            link: "/docs/packages/odn-ui/overview",
+            links: [
+              { text: "Overview", link: "/docs/packages/odn-ui/overview" },
+              {
+                text: "Components",
+                link: "/docs/packages/odn-ui/components",
               },
             ],
           },
