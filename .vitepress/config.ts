@@ -30,6 +30,19 @@ export default defineConfig({
         items: [
           { text: "Specifications", link: "/docs/api/specifications" },
           {
+            text: "Endpoints",
+            link: "/docs/api/endpoints/user",
+            items: [
+              {
+                text: "User",
+                link: "/docs/api/endpoints/user",
+              },
+              {
+                text: "Guild",
+                link: "/docs/api/endpoints/guild",
+              },
+            ],
+          }, {
             text: "Structures",
             link: "/docs/api/structures/user",
             items: [
@@ -47,7 +60,20 @@ export default defineConfig({
       },
       {
         text: "Web",
-        items: [{ text: "Specifications", link: "/docs/web/specifications" }],
+        items: [{ text: "Specifications", link: "/docs/web/specifications" }, {
+            text: "Routes",
+            link: "/docs/web/routes/user",
+            items: [
+              {
+                text: "User",
+                link: "/docs/web/routes/user",
+              },
+              {
+                text: "Guild",
+                link: "/docs/web/routes/guild",
+              },
+            ],
+          },],
       },
     ],
 
