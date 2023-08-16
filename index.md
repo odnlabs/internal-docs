@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: 'ODN Internal Docs'
-  text: 'In-depth docs'
+  name: "ODN Internal Docs"
+  text: "In-depth coverage"
   tagline: The official Internal Documentation for Open Dev Net, to help you understand the inner workings of the platform.
   actions:
     - theme: brand
@@ -22,6 +22,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🚀
+    title: Deployment
+    details: See how we've setup automatic testing and deployment.
 ---
