@@ -10,6 +10,9 @@ dependencies:
     version: 3.3.4
 
 devDependencies:
+  prettier:
+    specifier: ^3.0.2
+    version: 3.0.2
   vitepress:
     specifier: 1.0.0-rc.4
     version: 1.0.0-rc.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)
@@ -694,6 +697,12 @@ packages:
 
   /preact@10.17.0:
     resolution: {integrity: sha512-SNsI8cbaCcUS5tbv9nlXuCfIXnJ9ysBMWk0WnB6UWwcVA3qZ2O6FxqDFECMAMttvLQcW/HaNZUe2BLidyvrVYw==}
+    dev: true
+
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /rollup@3.28.0:

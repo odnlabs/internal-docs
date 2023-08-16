@@ -12,7 +12,7 @@ Other technologies include using JSON as the data format, JWT for authentication
 
 ## Endpoints
 
-| Page             | Path          | Method       | Brief Description                                          |
-| ---------------- | ------------- | ------------ |----------------------------------------------------------- |
-|   notify list    |   `/notify`   |    `POST`    | Add user to notify list and create Discord Notifiction     |
-|   notify list    |   `/notify`   |    `GET`     | Get all emails on the notify list                          |
+| Page        | Path      | Method | Brief Description                                      |
+| ----------- | --------- | ------ | ------------------------------------------------------ |
+| notify list | `/notify` | `POST` | Add user to notify list and create Discord Notifiction |
+| notify list | `/notify` | `GET`  | Get all emails on the notify list                      |
