@@ -42,7 +42,8 @@ export default defineConfig({
                 link: "/docs/api/endpoints/guild",
               },
             ],
-          }, {
+          },
+          {
             text: "Structures",
             link: "/docs/api/structures/user",
             items: [
@@ -60,7 +61,9 @@ export default defineConfig({
       },
       {
         text: "Web",
-        items: [{ text: "Specifications", link: "/docs/web/specifications" }, {
+        items: [
+          { text: "Specifications", link: "/docs/web/specifications" },
+          {
             text: "Routes",
             link: "/docs/web/routes/user",
             items: [
@@ -73,7 +76,8 @@ export default defineConfig({
                 link: "/docs/web/routes/guild",
               },
             ],
-          },],
+          },
+        ],
       },
     ],
 
