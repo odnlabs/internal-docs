@@ -2,7 +2,18 @@
 
 ## Technologies
 
-- Rust – Programming language.
+#### Programming Language
+
+Rust is the programming language of choice for our API, for it's performance, safety, ecosystem, and interoperability.
+
+#### Framework
+
+Axum is the backend framework we use. Considering it's backed by tokio, we trust it as a reliable and well-maintained framework to use in our ecosystem.
+
+#### Database
+
+
+
 - Axum – Primary backend framework.
 - MongoDB – Database.
 - Docker – Create a containerized environment for the API to run in.
