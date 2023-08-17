@@ -14,7 +14,14 @@
 
 **MongoDB** is the database we choose to use, as it provides flexibility, it's document oriented, and scalable. Flexibility is important because we won't be 100% sure of the database models we want to use at the beginning.
 
+## Protocols
 
+#### REST
 
-Other technologies include using JSON as the data format, JWT for authentication, and WebSocket for live connections.
+REST is the main protocol we use for our API. It's used for all the CRUD operations, and for the majority of the API.
 
+JSON is the main format used for the REST API.
+
+#### WebSocket
+
+WebSocket is used for live connections, such as live chat, live notifications, and live updates.
