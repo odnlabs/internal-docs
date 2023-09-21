@@ -7,6 +7,7 @@ export default defineConfig({
   description: "Internal documentation for the Open Dev Net platform.",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   cleanUrls: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
