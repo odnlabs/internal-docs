@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  outDir: './dist',
   base: "/internal-docs",
   title: "ODN Internal Docs",
   description: "Internal documentation for the Open Dev Net platform.",
